@@ -8,16 +8,6 @@ services:
     ports:
       - "5001:5001"
 
-  profile_service:
-    build:
-      context: ./backend/profileService
-      dockerfile: Dockerfile
-    ports:
-      - "5002:5002"
-    environment:
-      - PORT=5002
-      - MONGO_URL=mongodb+srv://your_connection_string
-
   frontend:
     build:
       context: ./frontend  # Ensure frontend has a Dockerfile
@@ -28,15 +18,3 @@ services:
     depends_on:
       - hello_service
       - profile_service
-
-  nginx:
-    build:
-      context: ./nginx  # Ensure nginx has a Dockerfile
-      dockerfile: Dockerfile
-    container_name: nginx_proxy
-    ports:
-      - "80:80"  # Exposing Nginx on port 80
-    depends_on:
-      - hello_service
-      - profile_service
-      - frontend
