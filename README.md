@@ -129,6 +129,12 @@
 
    - Use Boto3 to deploy EC2 instances with the Dockerized frontend application.
 
+![image](https://github.com/user-attachments/assets/42745784-6798-40ad-ba1a-37d5f5bcec53)
+
+![image](https://github.com/user-attachments/assets/425bf9e3-be23-4f18-9885-010b2093a559)
+
+![image](https://github.com/user-attachments/assets/9fdd4492-4709-4f3c-97fa-f90f9ad88b16)
+
 
 ✅✅ # Step 9: Kubernetes (EKS) Deployment
 
@@ -139,3 +145,30 @@
 2. Deploy Application with Helm:
 
    - Use Helm to package and deploy the MERN application on EKS.
+  
+![image](https://github.com/user-attachments/assets/8968acee-42b1-4ffa-9885-36a47d8e14b8)
+
+![image](https://github.com/user-attachments/assets/0ed4bc8d-beaa-4cd6-81b8-9350e5cc7343)
+
+![image](https://github.com/user-attachments/assets/7cad7839-6765-4eae-beab-ec556f81ef28)
+
+![image](https://github.com/user-attachments/assets/4fc4cc19-0e46-42ca-a960-3f72ca2a604e)
+
+![image](https://github.com/user-attachments/assets/6771d903-a188-4314-af15-17c172c92762)
+
+![image](https://github.com/user-attachments/assets/c64f9090-98ca-43f2-b698-1880a0209736)
+
+![image](https://github.com/user-attachments/assets/641d7672-56fc-46fb-9b98-c7f2c9173985)
+
+![image](https://github.com/user-attachments/assets/29985275-8eda-48dc-a1d8-2c90311b7b35)
+
+![image](https://github.com/user-attachments/assets/2b532ee6-1f44-45f8-b6dc-7c15b57f8e59)
+
+
+
+
+
+
+
+
+
