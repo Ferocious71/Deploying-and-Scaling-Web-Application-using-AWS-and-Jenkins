@@ -21,6 +21,32 @@
    - Create an Amazon ECR repository for each image.
 
    - Push the Docker images to their respective ECR repositories.
+  
+
+   ![image](https://github.com/user-attachments/assets/adce5cca-926f-4861-ace4-ade3d685602b)
+
+
+   ![image](https://github.com/user-attachments/assets/4551fb80-0413-4e1d-8a18-c0c3a10c1138)
+
+
+   ![image](https://github.com/user-attachments/assets/ddab429c-3f41-4979-b9a0-5a78f9d661f8)
+
+
+   ![image](https://github.com/user-attachments/assets/9e87cef7-2292-47bf-bf2e-9dcc6e7f5db0)
+
+
+   ![image](https://github.com/user-attachments/assets/f23f55f3-33e5-49ee-9113-b7ca994dbcb7)
+
+
+   - ec2-instance-frontend-service
+
+   ![image](https://github.com/user-attachments/assets/08e09bdc-7727-44fb-93ad-070f9f03cd15)
+
+
+   - ec2-instance-backend-service
+  
+   ![image](https://github.com/user-attachments/assets/b5f748f7-dc36-463f-9cf1-26cbaebac9fa)
+
 
 ✅✅ # Step 3: Version Control (Git)
 
