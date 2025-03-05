@@ -62,6 +62,22 @@
 2. Create Jenkins Jobs:
 
    - Create Jenkins jobs for building and pushing Docker images to ECR.
+  
+
+![image](https://github.com/user-attachments/assets/5c23713f-4701-4b65-9c4c-64741332037d)
+
+
+![image](https://github.com/user-attachments/assets/85e42463-46e9-4f5f-b83c-8d7be1c22871)
+
+
+![image](https://github.com/user-attachments/assets/07766ff7-a416-47a1-99a9-4c2eae3dd873)
+
+- jenkins-push-ecr-backend
+  ![image](https://github.com/user-attachments/assets/80391d9d-de93-43c7-88b6-972b488d9c2f)
+
+
+- jenkins-push-ecr-frontend
+  ![image](https://github.com/user-attachments/assets/90d193af-f621-41c8-861e-b3abd9b5514e)
 
 
 ✅✅ # Step 5: Infrastructure as Code (IaC) with Boto3
