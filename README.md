@@ -146,7 +146,7 @@
 
    - Use Helm to package and deploy the MERN application on EKS.
   
-![image](https://github.com/user-attachments/assets/8968acee-42b1-4ffa-9885-36a47d8e14b8)
+![image](https://github.com/user-attachments/assets/b31ea7d0-6d42-4e37-982a-883cc0e9d3ab)
 
 ![image](https://github.com/user-attachments/assets/0ed4bc8d-beaa-4cd6-81b8-9350e5cc7343)
 
