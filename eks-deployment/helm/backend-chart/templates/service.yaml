@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service
+spec:
+  selector:
+    app: backend
+  ports:
+    - protocol: TCP
+      port: 5001
+      targetPort: {{ .Values.port }}  # Ensure 'port' is correctly defined in values.yaml
+  type: LoadBalancer  # Change from ClusterIP to LoadBalancer to expose the backend externally

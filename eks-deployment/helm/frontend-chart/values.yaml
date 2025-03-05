@@ -1,0 +1,5 @@
+replicaCount: 1
+
+image: "975050024946.dkr.ecr.us-east-1.amazonaws.com/frontend-service:latest"
+
+port: 3000

@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend
+        image: 975050024946.dkr.ecr.us-east-1.amazonaws.com/backend-hello-service:latest
+        ports:
+        - containerPort: 5001
+        env:
+        - name: MONGO_URI
+          value: "mongodb+srv://ferocious71:salman71@cluster14.sjvuc.mongodb.net/learnerDB?retryWrites=true&w=majority&appName=Cluster14"
+      imagePullSecrets:
+      - name: ecr-secret

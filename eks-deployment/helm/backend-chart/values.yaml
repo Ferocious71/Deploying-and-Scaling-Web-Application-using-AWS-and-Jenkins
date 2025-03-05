@@ -1,0 +1,10 @@
+image:
+  repository: 975050024946.dkr.ecr.us-east-1.amazonaws.com/backend-hello-service
+  tag: latest
+
+replicaCount: 1
+
+service:
+  type: LoadBalancer
+port: 5001
+
