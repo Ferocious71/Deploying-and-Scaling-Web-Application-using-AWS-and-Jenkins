@@ -1,0 +1,14 @@
+{
+    "ImageId": "ami-04b4f1a9cf54c11d0",
+    "InstanceType": "t2.micro",
+    "KeyName": "sal_instance_new",
+    "NetworkInterfaces": [
+      {
+        "DeviceIndex": 0,
+        "SubnetId": "subnet-0927e5eb4438502b6",
+        "Groups": ["sg-09e22b2a8f8419c3c"],
+        "AssociatePublicIpAddress": true
+      }
+    ],
+        "UserData": "IyEvYmluL2Jhc2gKc3VkbyBhcHQgdXBkYXRlIC15CnN1ZG8gYXB0IGluc3RhbGwgLXkgb3BlbnNzaC1zZXJ2ZXIKc3VkbyBzeXN0ZW1jdGwgcmVzdGFydCBzc2gKc3VkbyBzeXN0ZW1jdGwgZW5hYmxlIHNzaAojIS9iaW4vYmFzaApzdWRvIGFwdCB1cGRhdGUgLXkKc3VkbyBhcHQgaW5zdGFsbCAteSBvcGVuc3NoLXNlcnZlcgpzdWRvIHN5c3RlbWN0bCByZXN0YXJ0IHNzaApzdWRvIHN5c3RlbWN0bCBlbmFibGUgc3NoCgojIFVwZGF0ZSBwYWNrYWdlIGxpc3QgYW5kIGluc3RhbGwgRG9ja2VyCnN1ZG8gYXB0LWdldCB1cGRhdGUgLXkKc3VkbyBhcHQtZ2V0IGluc3RhbGwgLXkgZG9ja2VyLmlvCnN1ZG8gc3lzdGVtY3RsIHN0YXJ0IGRvY2tlcgpzdWRvIHN5c3RlbWN0bCBlbmFibGUgZG9ja2VyCgojIExvZ2luIHRvIEFtYXpvbiBFQ1IKYXdzIGVjciBnZXQtbG9naW4tcGFzc3dvcmQgLS1yZWdpb24gdXMtZWFzdC0xIHwgZG9ja2VyIGxvZ2luIC0tdXNlcm5hbWUgQVdTIC0tcGFzc3dvcmQtc3RkaW4gOTc1MDUwMDI0OTQ2LmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20KCiMgUHVsbCBiYWNrZW5kIGNvbnRhaW5lciBpbWFnZSBmcm9tIEVDUgpkb2NrZXIgcHVsbCA5NzUwNTAwMjQ5NDYuZGtyLmVjci51cy1lYXN0LTEuYW1hem9uYXdzLmNvbS9iYWNrZW5kLWhlbGxvLXNlcnZpY2U6bGF0ZXN0CgojIFJ1biB0aGUgYmFja2VuZCBjb250YWluZXIgb24gcG9ydCA1MDAwCmRvY2tlciBydW4gLXAgNTAwMDo1MDAwIC0tbmFtZSBiYWNrZW5kLWNvbnRhaW5lciAtZCA5NzUwNTAwMjQ5NDYuZGtyLmVjci51cy1lYXN0LTEuYW1hem9uYXdzCg=="
+}
