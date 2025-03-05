@@ -106,7 +106,15 @@
 1. Deploy Backend on EC2 with ASG:
 
    - Use Boto3 to deploy EC2 instances with the Dockerized backend application in the ASG.
-   
+  
+![image](https://github.com/user-attachments/assets/8710caec-755a-4482-bf10-556c5979e667)
+
+![image](https://github.com/user-attachments/assets/e4b59709-2028-4885-b479-36edc3409fc5)
+
+![image](https://github.com/user-attachments/assets/894ca3fd-2b6c-44a1-9ae9-90a2a658c609)
+
+![image](https://github.com/user-attachments/assets/6617cbe8-b63c-48a2-9a2a-064595225ba2)
+
 
 ✅✅ # Step 7: Set Up Networking
 
